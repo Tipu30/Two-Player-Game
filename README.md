@@ -27,7 +27,7 @@ To clone and run this project, you'll need [Git](https://git-scm.com) and a web 
 4. Open the index.html file in your web browser:
      ```sh
    open index.html
-       ```sh
+     
 
 🔗 Demo
    [Click here ](https://tipu30.github.io/Two-Player-Game/) to see and play a demo of the game.
