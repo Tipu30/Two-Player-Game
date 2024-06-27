@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tic Tac Toe </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/tictactoe/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>MY Two Player Game</h1>
+        <h4>Turn For:</h4>
+        <div id="turn"><span id="x-turn">X</span><span id="o-turn">O</span></div>
+        <div class="container">
+            <button class="btn-move"></button>
+            <button class="btn-move"></button>
+            <button class="btn-move"></button>
+            <button class="btn-move"></button>
+            <button class="btn-move"></button>
+            <button class="btn-move"></button>
+            <button class="btn-move"></button>
+            <button class="btn-move"></button>
+            <button class="btn-move"></button>
+        </div>
+        <div id="btn-change">
+            <button style="margin: 10px;" id="btn-restart">Restart</button>
+            <button id="btn-quit">Quit</button>
+
+        </div>
+
+
+    </div>
+    <div class="popup hide">
+        <p id="message">Test Message</p>
+        <button id="btn-new-game">New Game</button>
+    </div>
+    <script src="/tictactoe/script.js"></script>
+</body>
+
+</html>
