@@ -1,5 +1,5 @@
 # Tic Tac Toe Game
-[Live](https://themultiplayergame.netlify.app/)
+# [Live](https://themultiplayergame.netlify.app/)
 
 ## Description
 
